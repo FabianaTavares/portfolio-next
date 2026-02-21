@@ -51,8 +51,10 @@ src/
 ├── app/
 │   ├── layout.tsx
 │   └── page.tsx
-├── pages/
 │   ├── Projetos/
+│       ├── page.tsx
+│       └── [slug]/
+│           └── page.tsx
 │   ├── Conteudo/
 │   ├── Sobre/
 │   ├── Contato/
