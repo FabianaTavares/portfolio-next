@@ -1,36 +1,163 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nome do Projeto
+![Next.js](https://img.shields.io/badge/Next.js-Framework-black)
+![React](https://img.shields.io/badge/React-Library-61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-black)
+![Version](https://img.shields.io/github/v/release/seu-usuario/seu-repositorio)
 
-## Getting Started
+Portfólio profissional desenvolvido com React e Next.js, focado em organização arquitetural, SEO técnico e boas práticas de desenvolvimento frontend.
 
-First, run the development server:
+Projeto estruturado para ser reutilizável como base profissional.
 
-```bash
+---
+
+## 📌 Sobre o Projeto
+
+Este projeto é um portfólio frontend desenvolvido com React e Next.js, utilizando uma abordagem híbrida de roteamento:
+
+- `app/` utilizado apenas para layout global
+- `pages/` responsável pelo roteamento principal
+
+A arquitetura prioriza:
+
+- Simplicidade estrutural
+- Organização modular
+- Separação de responsabilidades
+- Performance e SEO
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- Framework: Next.js
+- Biblioteca: React
+- Linguagem: TypeScript
+- Deploy: Vercel
+- Lint: ESLint
+- Formatação: Prettier
+- Hooks de Git: Husky
+- Commit pattern: Conventional Commits
+- Versionamento: Semantic Versioning
+
+---
+
+## 🧱 Arquitetura
+
+Estrutura principal:
+
+src/
+├── app/
+│   ├── layout.tsx
+│   └── page.tsx
+├── pages/
+│   ├── Projetos/
+│   ├── Conteudo/
+│   ├── Sobre/
+│   ├── Contato/
+│   └── index.tsx
+├── components/
+├── sections/
+├── hooks/
+├── services/
+├── styles/
+├── utils/
+└── types/
+
+### Estratégia adotada
+
+- `app/` centraliza layout global e configurações base
+- `pages/` organiza rotas de forma explícita
+- Componentes reutilizáveis isolados em `components/`
+- Seções estruturais em `sections/`
+- Utilitários desacoplados em `utils/`
+
+Essa abordagem mantém clareza arquitetural sem complexidade excessiva do App Router completo.
+
+---
+
+## ⚙️ Setup do Projeto
+
+### 1. Clonar repositório
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+### 2. Instalar dependências
+
+npm install
+
+### 3. Rodar ambiente de desenvolvimento
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Aplicação disponível em:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧪 Scripts Disponíveis
 
-## Learn More
+| Script | Descrição |
+|--------|----------|
+| npm run dev | Ambiente de desenvolvimento |
+| npm run build | Build de produção |
+| npm run start | Inicia build de produção |
+| npm run lint | Executa ESLint |
+| npm run format | Executa Prettier |
+| npm run changelog | Atualiza CHANGELOG automaticamente |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Versionamento
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este projeto segue o padrão de versionamento semântico:
 
-## Deploy on Vercel
+MAJOR.MINOR.PATCH
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Com geração automática de changelog baseada em Conventional Commits.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📜 Convenção de Commits
+
+Exemplos:
+
+feat: adiciona página de projetos  
+fix: corrige erro de tipagem  
+docs: atualiza README  
+refactor: reorganiza estrutura de componentes  
+
+---
+
+## 🔄 Fluxo de Branches
+
+- main → produção
+- develop → integração
+- feature/*
+- fix/*
+- docs/*
+- chore/*
+
+---
+
+## 🌐 Deploy
+
+Deploy automatizado via Vercel.
+
+Push na branch `main` atualiza produção.
+
+---
+
+## 📈 SEO e Performance
+
+- Renderização otimizada com Next.js
+- Estrutura semântica
+- Otimização automática de imagens
+- Meta tags configuráveis
+- Compatível com boas práticas de Lighthouse
+
+---
+
+## 📄 Licença
+
+MIT
