@@ -1,9 +1,11 @@
+import { Footer } from '@/components/layout/Footer/Footer'
+import { Header } from '@/components/layout/Header/Header'
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import './globals.scss'
 
 const roboto = Roboto({
-  variable: '--font-geist-sans',
+  variable: '--font-roboto',
   subsets: ['latin'],
 })
 
@@ -24,8 +26,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Fabiana Tavares | Desenvolvedora Frontend',
-    description:
-      'Portfólio profissional com projetos e conteúdos técnicos.',
+    description: 'Portfólio profissional com projetos e conteúdos técnicos.',
     url: 'https://fabianatavares.com',
     siteName: 'Fabiana Tavares',
     locale: 'pt_BR',
@@ -34,8 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Fabiana Tavares | Desenvolvedora Frontend',
-    description:
-      'Portfólio profissional com projetos e conteúdos técnicos.',
+    description: 'Portfólio profissional com projetos e conteúdos técnicos.',
   },
   robots: {
     index: true,
@@ -49,9 +49,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className={`${roboto.variable}`}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )

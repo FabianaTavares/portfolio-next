@@ -1,0 +1,128 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  text-align: center;
+  max-width: 40rem;
+}
+
+.title {
+  font-size: var(--fs-xl);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-size: var(--fs-lg);
+  color: var(--color-text-secondary);
+  max-width: 32rem;
+  margin: 0 auto;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+}
+
+.avatarWrapper {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  padding: var(--space-1);
+  background: linear-gradient(
+    135deg,
+    var(--color-accent),
+    var(--color-accent-soft)
+  );
+  box-shadow: var(--shadow-glow);
+
+  @media (min-width: 1400px) {
+    width: 420px;
+    height: 420px;
+  }
+
+  @media (max-width: 768px) {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Buttons */
+
+.primaryButton {
+  background: var(--color-accent);
+  color: white;
+  padding: var(--space-2) var(--space-4);
+  border-radius: 999px;
+  transition: var(--transition-default);
+  box-shadow: var(--shadow-glow);
+  font-weight: 500;
+  text-align: center;
+}
+
+.primaryButton:hover {
+  transform: translateY(-2px);
+}
+
+.secondaryButton {
+  border: 1px solid var(--color-accent);
+  padding: var(--space-2) var(--space-4);
+  border-radius: 999px;
+  color: var(--color-accent);
+  transition: var(--transition-default);
+  text-align: center;
+}
+
+.secondaryButton:hover {
+  background: rgba(124, 77, 255, 0.1);
+}
+
+/* Tablet */
+@media (min-width: 48rem) {
+  .actions {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+/* Desktop */
+@media (min-width: 64rem) {
+  .hero {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .content {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .subtitle {
+    margin: 0;
+  }
+
+  .actions {
+    justify-content: flex-start;
+  }
+
+  .title {
+    font-size: var(--fs-2xl);
+  }
+}

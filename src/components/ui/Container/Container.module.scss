@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+  }
+  
+  @media (min-width: 48rem) {
+    .container {
+      padding-left: var(--space-5);
+      padding-right: var(--space-5);
+    }
+  }
+  
+  @media (min-width: 72rem) {
+    .container {
+      max-width: 71.25rem;
+    }
+  }
