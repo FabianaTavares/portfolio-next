@@ -1,11 +1,11 @@
 # Nome do Projeto
-![CI](https://github.com/seu-usuario/seu-repositorio/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/FabianaTavares/portfolio-next/actions/workflows/ci.yml/badge.svg)
 ![Next.js](https://img.shields.io/badge/Next.js-Framework-black)
 ![React](https://img.shields.io/badge/React-Library-61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Vercel](https://img.shields.io/badge/Deploy-Vercel-black)
-![Version](https://img.shields.io/github/v/release/seu-usuario/seu-repositorio)
+![Version](https://img.shields.io/github/v/release/FabianaTavares/portfolio-next)
 
 Portfólio profissional desenvolvido com React e Next.js, focado em organização arquitetural, SEO técnico e boas práticas de desenvolvimento frontend.
 
