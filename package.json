@@ -24,6 +24,15 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "husky": "^8.0.0",
+    "lint-staged": "^16.2.7",
     "typescript": "^5"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "pnpm exec eslint --fix"
+    ],
+    "*.{scss,css}": [
+      "echo 'SCSS staged'"
+    ]
   }
 }
