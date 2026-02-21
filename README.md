@@ -1,4 +1,5 @@
 # Nome do Projeto
+![CI](https://github.com/seu-usuario/seu-repositorio/actions/workflows/ci.yml/badge.svg)
 ![Next.js](https://img.shields.io/badge/Next.js-Framework-black)
 ![React](https://img.shields.io/badge/React-Library-61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue)
