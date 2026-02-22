@@ -1,40 +1,30 @@
+import projectsData from '@/data/projects.json'
+import Link from 'next/link'
 import styles from './FeaturedProjects.module.scss'
 
-const projects = [
-  {
-    title: 'E-commerce Escalável',
-    description:
-      'Arquitetura frontend performática utilizando Next.js com SSR e otimizações avançadas.',
-  },
-  {
-    title: 'Dashboard Analytics',
-    description:
-      'Interface moderna com foco em dados em tempo real e experiência fluida.',
-  },
-  {
-    title: 'SaaS Plataforma B2B',
-    description:
-      'Sistema robusto com autenticação segura e arquitetura modular.',
-  },
-]
-
 export default function FeaturedProjects() {
+  const featured = projectsData.projects.filter((p) => p.featured)
+
   return (
     <div className={styles.wrapper} id="projetos">
       <div className={styles.header}>
         <h2>Projetos em Destaque</h2>
         <p>
-          Soluções construídas com foco em performance, escalabilidade e
-          experiência.
+          Projetos reais desenvolvidos com foco em arquitetura, escalabilidade e
+          experiência do usuário.
         </p>
       </div>
 
       <div className={styles.grid}>
-        {projects.map((project, index) => (
-          <div key={index} className={styles.card}>
+        {featured.map((project) => (
+          <Link
+            key={project.slug}
+            href={`/projects/${project.slug}`}
+            className={styles.card}
+          >
             <h3>{project.title}</h3>
-            <p>{project.description}</p>
-          </div>
+            <p>{project.shortDescription}</p>
+          </Link>
         ))}
       </div>
     </div>

@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "slug": "lunna",
+      "title": "Lunna imóveis",
+      "subtitle": "Plataforma de anúncios e encomenda de imóveis",
+      "type": "freelancer",
+      "category": "web",
+      "featured": true,
+      "stack": ["Next.js", "TypeScript"],
+      "shortDescription": "teste",
+      "description": [
+        "A Lunna é uma plataforma imobiliária desenvolvida para atender dois públicos distintos."
+      ],
+      "details": [
+        "Corretores podem cadastrar e gerenciar imóveis",
+        "Usuários podem buscar anúncios ou encomendar imóveis"
+      ],
+      "challenges": [
+        "Organização de uma aplicação com múltiplos perfis de usuário",
+        "Manutenção de uma arquitetura escalável em Next.js",
+        "Gerenciamento de estado em formulários extensos e dinâmicos",
+        "Garantir boa experiência do usuário em fluxos longos",
+        "Preparar a aplicação para crescimento futuro do produto"
+      ],
+      "result": [
+        "Produto real em produção",
+        "Aplicação pronta para uso comercial",
+        "Base sólida para evolução da plataforma",
+        "Consolidação de experiência prática com Next.js em projeto freelance"
+      ],
+      "link": "http://lunnaimoveis.com.br",
+      "images": ["/assets/lunna/cover.png", "/assets/lunna/dashboard.png"],
+      "order": 1,
+      "year": 2025,
+      "role": "Frontend Software Enginner Senior"
+    },
+    {
+      "slug": "Plantup-app",
+      "title": "PlantUP (ATTO Intelligence)",
+      "subtitle": "PlantUP (ATTO Intelligence)",
+      "type": "freelancer",
+      "category": "web",
+      "featured": true,
+      "stack": ["Next.js", "TypeScript"],
+      "shortDescription": "teste",
+      "description": [
+        "A Lunna é uma plataforma imobiliária desenvolvida para atender dois públicos distintos."
+      ],
+      "details": [
+        "Corretores podem cadastrar e gerenciar imóveis",
+        "Usuários podem buscar anúncios ou encomendar imóveis"
+      ],
+      "challenges": [
+        "Organização de uma aplicação com múltiplos perfis de usuário",
+        "Manutenção de uma arquitetura escalável em Next.js",
+        "Gerenciamento de estado em formulários extensos e dinâmicos",
+        "Garantir boa experiência do usuário em fluxos longos",
+        "Preparar a aplicação para crescimento futuro do produto"
+      ],
+      "result": [
+        "Produto real em produção",
+        "Aplicação pronta para uso comercial",
+        "Base sólida para evolução da plataforma",
+        "Consolidação de experiência prática com Next.js em projeto freelance"
+      ],
+      "link": "http://lunnaimoveis.com.br",
+      "images": ["/assets/lunna/cover.png", "/assets/lunna/dashboard.png"],
+      "order": 2,
+      "year": 2024,
+      "role": "Frontend Software Enginner Senior"
+    }
+  ]
+}
