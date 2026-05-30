@@ -1,4 +1,5 @@
 # Nome do Projeto
+
 ![CI](https://github.com/FabianaTavares/portfolio-next/actions/workflows/ci.yml/badge.svg)
 ![Next.js](https://img.shields.io/badge/Next.js-Framework-black)
 ![React](https://img.shields.io/badge/React-Library-61DAFB)
@@ -49,16 +50,16 @@ Estrutura principal:
 
 src/
 ├── app/
-│   ├── layout.tsx
-│   └── page.tsx
-│   ├── Projetos/
-│       ├── page.tsx
-│       └── [slug]/
-│           └── page.tsx
-│   ├── Conteudo/
-│   ├── Sobre/
-│   ├── Contato/
-│   └── index.tsx
+│ ├── layout.tsx
+│ └── page.tsx
+│ ├── Projetos/
+│ ├── page.tsx
+│ └── [slug]/
+│ └── page.tsx
+│ ├── Conteudo/
+│ ├── Sobre/
+│ ├── Contato/
+│ └── index.tsx
 ├── components/
 ├── sections/
 ├── hooks/
@@ -87,11 +88,11 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 
 ### 2. Instalar dependências
 
-npm install
+pnpm install
 
 ### 3. Rodar ambiente de desenvolvimento
 
-npm run dev
+pnpm run dev
 
 Aplicação disponível em:
 http://localhost:3000
@@ -100,13 +101,13 @@ http://localhost:3000
 
 ## 🧪 Scripts Disponíveis
 
-| Script | Descrição |
-|--------|----------|
-| npm run dev | Ambiente de desenvolvimento |
-| npm run build | Build de produção |
-| npm run start | Inicia build de produção |
-| npm run lint | Executa ESLint |
-| npm run format | Executa Prettier |
+| Script            | Descrição                          |
+| ----------------- | ---------------------------------- |
+| npm run dev       | Ambiente de desenvolvimento        |
+| npm run build     | Build de produção                  |
+| npm run start     | Inicia build de produção           |
+| npm run lint      | Executa ESLint                     |
+| npm run format    | Executa Prettier                   |
 | npm run changelog | Atualiza CHANGELOG automaticamente |
 
 ---
@@ -128,7 +129,7 @@ Exemplos:
 feat: adiciona página de projetos  
 fix: corrige erro de tipagem  
 docs: atualiza README  
-refactor: reorganiza estrutura de componentes  
+refactor: reorganiza estrutura de componentes
 
 ---
 
@@ -136,10 +137,10 @@ refactor: reorganiza estrutura de componentes
 
 - main → produção
 - develop → integração
-- feature/*
-- fix/*
-- docs/*
-- chore/*
+- feature/\*
+- fix/\*
+- docs/\*
+- chore/\*
 
 ---
 

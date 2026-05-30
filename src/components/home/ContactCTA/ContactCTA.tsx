@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './ContactCTA.module.scss'
 
 export default function ContactCTA() {
@@ -10,9 +11,9 @@ export default function ContactCTA() {
           Estou disponível para projetos, freelas ou oportunidades full-time.
         </p>
 
-        <a href="mailto:seuemail@email.com" className={styles.button}>
+        <Link href="/contact" className={styles.button}>
           Entrar em Contato
-        </a>
+        </Link>
       </div>
     </section>
   )

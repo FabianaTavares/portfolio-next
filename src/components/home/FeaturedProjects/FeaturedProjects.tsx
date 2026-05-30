@@ -1,12 +1,12 @@
-import projectsData from '@/data/projects.json'
+import { projects } from '@/data/projects-data'
 import Link from 'next/link'
 import styles from './FeaturedProjects.module.scss'
 
 export default function FeaturedProjects() {
-  const featured = projectsData.projects.filter((p) => p.featured)
+  const featured = projects.filter((p) => p.featured)
 
   return (
-    <div className={styles.wrapper} id="projetos">
+    <div className={styles.wrapper} id="projects">
       <div className={styles.header}>
         <h2>Projetos em Destaque</h2>
         <p>

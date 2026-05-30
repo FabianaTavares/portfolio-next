@@ -1,4 +1,4 @@
-import { Project } from '@/types/projetct'
+import { Project } from '@/types/project'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './ProjectCard.module.scss'
@@ -13,7 +13,7 @@ export default function ProjectCard({ project }: Props) {
       {project.images?.[0] && (
         <div className={styles.imageWrapper}>
           <Image
-            src={project.images[0]}
+            src={`${project.images[0]}`}
             alt={project.title}
             fill
             className={styles.image}

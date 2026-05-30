@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import profileImg from '../../../../public/avatars/profile.png'
 import styles from './Hero.module.scss'
 
@@ -17,12 +18,12 @@ export default function Hero() {
         </p>
 
         <div className={styles.actions}>
-          <a href="#projetos" className={styles.primaryButton}>
+          <Link href="/projects" className={styles.primaryButton}>
             Ver Projetos
-          </a>
+          </Link>
 
-          <a href="#contato" className={styles.secondaryButton}>
-            Vamos Conversar
+          <a href="/about" className={styles.secondaryButton}>
+            Mais sobre
           </a>
         </div>
       </div>

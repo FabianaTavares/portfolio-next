@@ -1,4 +1,4 @@
-import { Project } from '@/types/projetct'
+import { Project } from '@/types/project'
 import Image from 'next/image'
 import styles from './ProjectDetails.module.scss'
 
@@ -33,7 +33,7 @@ export default function ProjectDetails({ project }: Props) {
         {project.images?.[0] && (
           <div className={styles.heroImage}>
             <Image
-              src={project.images[0]}
+              src={`/images/${project.images[0]}.png`}
               alt={project.title}
               fill
               className={styles.image}
@@ -76,7 +76,7 @@ export default function ProjectDetails({ project }: Props) {
           {project.images.slice(1).map((img) => (
             <div key={img} className={styles.galleryItem}>
               <Image
-                src={img}
+                src={`${img[0]}`}
                 alt={project.title}
                 fill
                 className={styles.image}

@@ -1,0 +1,116 @@
+import { Project } from '@/types'
+
+export const projects: Project[] = [
+  {
+    slug: 'lunna',
+    title: 'Lunna imóveis',
+    subtitle: 'Plataforma de anúncios e encomenda de imóveis',
+    type: 'freelancer',
+    category: 'web',
+    featured: true,
+    stack: ['Next.js', 'TypeScript'],
+    shortDescription:
+      "A Lunna é uma plataforma imobiliária desenvolvida para atender dois públicos distintos. O Diferencial é poder criar uma 'Encomenda'",
+    description: [
+      'A Lunna é uma plataforma imobiliária desenvolvida para atender dois públicos distintos.',
+    ],
+    details: [
+      'Corretores podem cadastrar e gerenciar imóveis',
+      'Usuários podem buscar anúncios ou encomendar imóveis',
+    ],
+    challenges: [
+      'Organização de uma aplicação com múltiplos perfis de usuário',
+      'Manutenção de uma arquitetura escalável em Next.js',
+      'Gerenciamento de estado em formulários extensos e dinâmicos',
+      'Garantir boa experiência do usuário em fluxos longos',
+      'Preparar a aplicação para crescimento futuro do produto',
+    ],
+    result: [
+      'Produto real em produção',
+      'Aplicação pronta para uso comercial',
+      'Base sólida para evolução da plataforma',
+      'Consolidação de experiência prática com Next.js em projeto freelance',
+    ],
+    link: 'https://lunnahome.com.br/site',
+    images: ['/images/lunna.png'],
+    order: 1,
+    year: 2025,
+    role: 'Frontend Software Enginner Senior',
+  },
+  {
+    slug: 'plantup-app',
+    title: 'PlantUP App (ATTO Intelligence)',
+    subtitle: 'PlantUP App (ATTO Intelligence)',
+    type: 'empresa',
+    category: 'mobile',
+    featured: true,
+    stack: ['React Native', 'Expo', 'Google Analytics'],
+    shortDescription:
+      'O PlantUP é um aplicativo inovador que transforma a maneira como você gerencia sua fazenda.',
+    description: [
+      'O PlantUP é um aplicativo inovador que transforma a maneira como você gerencia sua fazenda.',
+    ],
+    details: [
+      'Obtenha insights de cultivo, previsões do tempo e compare sua produtividade',
+      'Seleção de Cultivares: Descubra as melhores cultivares para a sua região e a população ideal para cada tipo, maximizando a produtividade da sua fazenda.',
+      'Tempo de Plantio: O aplicativo exibe as épocas mais favoráveis para o plantio com base em uma variedade de fatores, ajudando a evitar perdas.',
+      'Previsões Meteorológicas: Planeje seus plantios com antecedência com previsões meteorológicas precisas, possibilitando que suas culturas tenham as melhores chances de sucesso.',
+      'Ranking de Produtividade: Veja onde você se encontra no ranking de produtividade e descubra onde você pode fazer melhorias.',
+      'Fácil de Usar: O PlantUP é intuitivo e fácil de navegar, tornando a gestão da sua fazenda mais simples do que nunca.',
+    ],
+    challenges: [
+      'Organização de uma aplicação com múltiplos perfis de usuário',
+      'Manutenção de uma arquitetura escalável em Next.js',
+      'Gerenciamento de estado em formulários extensos e dinâmicos',
+      'Garantir boa experiência do usuário em fluxos longos',
+      'Preparar a aplicação para crescimento futuro do produto',
+    ],
+    result: [
+      'Produto real em produção',
+      'Aplicação pronta para uso comercial',
+      'Base sólida para evolução da plataforma',
+      'Consolidação de experiência prática com React Native, analise de dados e eventos com Google Analytics',
+    ],
+    link: 'https://play.google.com/store/apps/details?id=com.attointelligence.plantupapp&pcampaignid=web_share',
+    images: ['/images/plantup-app.png'],
+    order: 2,
+    year: 2024,
+    role: 'Frontend Software Enginner Senior',
+  },
+  {
+    slug: 'inter-business',
+    title: 'Inter Business Web',
+    subtitle: 'Inter Business Global Account Web',
+    type: 'empresa',
+    category: 'web',
+    featured: true,
+    stack: ['React 19.2.2'],
+    shortDescription:
+      'Uma solução integrada para empresas brasileiras e americanas, com operações de câmbio seguras e ágeis, conta em dólar e cartão de débito digital para empresas brasileiras.',
+    description: [
+      'Uma solução integrada para empresas brasileiras e americanas, com operações de câmbio seguras e ágeis, conta em dólar e cartão de débito digital para empresas brasileiras.',
+    ],
+    details: [
+      'A Global Account Business é uma conta digital em moeda estrangeira – Dólar Americano – e exclusiva para clientes correntistas Inter Pessoa Jurídica.',
+      'A Global Account Business facilita suas transações em dólar, possibilitando que você realize transações locais nos EUA, envie e resgate dinheiro entre Global Account e Conta Inter. Além disso, futuramente será possível realizar pagamentos em dólar por meio de um cartão de débito virtual.',
+    ],
+    challenges: [
+      'Construção do Design System para projetos Web',
+      'Manutenção de uma arquitetura escalável em React',
+      'Construção de microfrontends com module Federation',
+      'Garantir boa experiência do usuário em fluxos longos como o pré cadastro e onboarding',
+      'Internacionalização da plataforma',
+    ],
+    result: [
+      'Produto real em produção',
+      'Aplicação pronta para uso comercial',
+      'Base sólida para evolução da plataforma',
+      'Consolidação de experiência prática de acordo com as regras do banco.',
+    ],
+    link: 'https://business.us.inter.co',
+    images: ['/images/inter-business.png'],
+    order: 3,
+    year: 2026,
+    role: 'Frontend Software Enginner Senior',
+  },
+]

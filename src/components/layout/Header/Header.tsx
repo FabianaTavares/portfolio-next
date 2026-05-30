@@ -12,10 +12,10 @@ export function Header() {
         </Link>
 
         <nav className={styles.nav}>
-          <Link href="#projects">Projetos</Link>
-          <Link href="/content">Conteúdo</Link>
-          <Link href="#About">Sobre</Link>
-          <Link href="#Contact">Contato</Link>
+          <Link href="/#projects">Projetos</Link>
+          <Link href="/#content">Conteúdo</Link>
+          <Link href="/#about">Sobre</Link>
+          <Link href="/#contact">Contato</Link>
         </nav>
       </div>
     </header>
